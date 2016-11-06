@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DA64A01DCFAAA400B67DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA649F1DCFAAA400B67DFC /* AppDelegate.swift */; };
+		36DA64A21DCFAAA400B67DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA64A11DCFAAA400B67DFC /* ViewController.swift */; };
+		36DA64A51DCFAAA400B67DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA64A31DCFAAA400B67DFC /* Main.storyboard */; };
+		36DA64A81DCFAAA400B67DFC /* QuanLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36DA64A61DCFAAA400B67DFC /* QuanLife.xcdatamodeld */; };
+		36DA64AA1DCFAAA400B67DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DA64A91DCFAAA400B67DFC /* Assets.xcassets */; };
+		36DA64AD1DCFAAA400B67DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA64AB1DCFAAA400B67DFC /* LaunchScreen.storyboard */; };
+		36DA64B81DCFAAA400B67DFC /* QuanLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA64B71DCFAAA400B67DFC /* QuanLifeTests.swift */; };
+		36DA64C31DCFAAA400B67DFC /* QuanLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA64C21DCFAAA400B67DFC /* QuanLifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36DA64B41DCFAAA400B67DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DA64941DCFAAA400B67DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DA649B1DCFAAA400B67DFC;
+			remoteInfo = QuanLife;
+		};
+		36DA64BF1DCFAAA400B67DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DA64941DCFAAA400B67DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DA649B1DCFAAA400B67DFC;
+			remoteInfo = QuanLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DA649C1DCFAAA400B67DFC /* QuanLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA649F1DCFAAA400B67DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36DA64A11DCFAAA400B67DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36DA64A41DCFAAA400B67DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36DA64A71DCFAAA400B67DFC /* QuanLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuanLife.xcdatamodel; sourceTree = "<group>"; };
+		36DA64A91DCFAAA400B67DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36DA64AC1DCFAAA400B67DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36DA64AE1DCFAAA400B67DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA64B31DCFAAA400B67DFC /* QuanLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA64B71DCFAAA400B67DFC /* QuanLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanLifeTests.swift; sourceTree = "<group>"; };
+		36DA64B91DCFAAA400B67DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA64BE1DCFAAA400B67DFC /* QuanLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA64C21DCFAAA400B67DFC /* QuanLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanLifeUITests.swift; sourceTree = "<group>"; };
+		36DA64C41DCFAAA400B67DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DA64991DCFAAA400B67DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64B01DCFAAA400B67DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64BB1DCFAAA400B67DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DA64931DCFAAA400B67DFC = {
+			isa = PBXGroup;
+			children = (
+				36DA649E1DCFAAA400B67DFC /* QuanLife */,
+				36DA64B61DCFAAA400B67DFC /* QuanLifeTests */,
+				36DA64C11DCFAAA400B67DFC /* QuanLifeUITests */,
+				36DA649D1DCFAAA400B67DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DA649D1DCFAAA400B67DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DA649C1DCFAAA400B67DFC /* QuanLife.app */,
+				36DA64B31DCFAAA400B67DFC /* QuanLifeTests.xctest */,
+				36DA64BE1DCFAAA400B67DFC /* QuanLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DA649E1DCFAAA400B67DFC /* QuanLife */ = {
+			isa = PBXGroup;
+			children = (
+				36DA649F1DCFAAA400B67DFC /* AppDelegate.swift */,
+				36DA64A11DCFAAA400B67DFC /* ViewController.swift */,
+				36DA64A31DCFAAA400B67DFC /* Main.storyboard */,
+				36DA64A91DCFAAA400B67DFC /* Assets.xcassets */,
+				36DA64AB1DCFAAA400B67DFC /* LaunchScreen.storyboard */,
+				36DA64AE1DCFAAA400B67DFC /* Info.plist */,
+				36DA64A61DCFAAA400B67DFC /* QuanLife.xcdatamodeld */,
+			);
+			path = QuanLife;
+			sourceTree = "<group>";
+		};
+		36DA64B61DCFAAA400B67DFC /* QuanLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				36DA64B71DCFAAA400B67DFC /* QuanLifeTests.swift */,
+				36DA64B91DCFAAA400B67DFC /* Info.plist */,
+			);
+			path = QuanLifeTests;
+			sourceTree = "<group>";
+		};
+		36DA64C11DCFAAA400B67DFC /* QuanLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36DA64C21DCFAAA400B67DFC /* QuanLifeUITests.swift */,
+				36DA64C41DCFAAA400B67DFC /* Info.plist */,
+			);
+			path = QuanLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36DA649B1DCFAAA400B67DFC /* QuanLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA64C71DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLife" */;
+			buildPhases = (
+				36DA64981DCFAAA400B67DFC /* Sources */,
+				36DA64991DCFAAA400B67DFC /* Frameworks */,
+				36DA649A1DCFAAA400B67DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuanLife;
+			productName = QuanLife;
+			productReference = 36DA649C1DCFAAA400B67DFC /* QuanLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36DA64B21DCFAAA400B67DFC /* QuanLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA64CA1DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLifeTests" */;
+			buildPhases = (
+				36DA64AF1DCFAAA400B67DFC /* Sources */,
+				36DA64B01DCFAAA400B67DFC /* Frameworks */,
+				36DA64B11DCFAAA400B67DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DA64B51DCFAAA400B67DFC /* PBXTargetDependency */,
+			);
+			name = QuanLifeTests;
+			productName = QuanLifeTests;
+			productReference = 36DA64B31DCFAAA400B67DFC /* QuanLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36DA64BD1DCFAAA400B67DFC /* QuanLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA64CD1DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLifeUITests" */;
+			buildPhases = (
+				36DA64BA1DCFAAA400B67DFC /* Sources */,
+				36DA64BB1DCFAAA400B67DFC /* Frameworks */,
+				36DA64BC1DCFAAA400B67DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DA64C01DCFAAA400B67DFC /* PBXTargetDependency */,
+			);
+			name = QuanLifeUITests;
+			productName = QuanLifeUITests;
+			productReference = 36DA64BE1DCFAAA400B67DFC /* QuanLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DA64941DCFAAA400B67DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hank;
+				TargetAttributes = {
+					36DA649B1DCFAAA400B67DFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B5QW56JUZW;
+					};
+					36DA64B21DCFAAA400B67DFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 36DA649B1DCFAAA400B67DFC;
+					};
+					36DA64BD1DCFAAA400B67DFC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 36DA649B1DCFAAA400B67DFC;
+					};
+				};
+			};
+			buildConfigurationList = 36DA64971DCFAAA400B67DFC /* Build configuration list for PBXProject "QuanLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36DA64931DCFAAA400B67DFC;
+			productRefGroup = 36DA649D1DCFAAA400B67DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DA649B1DCFAAA400B67DFC /* QuanLife */,
+				36DA64B21DCFAAA400B67DFC /* QuanLifeTests */,
+				36DA64BD1DCFAAA400B67DFC /* QuanLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36DA649A1DCFAAA400B67DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA64AD1DCFAAA400B67DFC /* LaunchScreen.storyboard in Resources */,
+				36DA64AA1DCFAAA400B67DFC /* Assets.xcassets in Resources */,
+				36DA64A51DCFAAA400B67DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64B11DCFAAA400B67DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64BC1DCFAAA400B67DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DA64981DCFAAA400B67DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA64A21DCFAAA400B67DFC /* ViewController.swift in Sources */,
+				36DA64A01DCFAAA400B67DFC /* AppDelegate.swift in Sources */,
+				36DA64A81DCFAAA400B67DFC /* QuanLife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64AF1DCFAAA400B67DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA64B81DCFAAA400B67DFC /* QuanLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA64BA1DCFAAA400B67DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA64C31DCFAAA400B67DFC /* QuanLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36DA64B51DCFAAA400B67DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DA649B1DCFAAA400B67DFC /* QuanLife */;
+			targetProxy = 36DA64B41DCFAAA400B67DFC /* PBXContainerItemProxy */;
+		};
+		36DA64C01DCFAAA400B67DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DA649B1DCFAAA400B67DFC /* QuanLife */;
+			targetProxy = 36DA64BF1DCFAAA400B67DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36DA64A31DCFAAA400B67DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DA64A41DCFAAA400B67DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36DA64AB1DCFAAA400B67DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DA64AC1DCFAAA400B67DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36DA64C51DCFAAA400B67DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36DA64C61DCFAAA400B67DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36DA64C81DCFAAA400B67DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuanLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		36DA64C91DCFAAA400B67DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuanLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		36DA64CB1DCFAAA400B67DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuanLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLife.app/QuanLife";
+			};
+			name = Debug;
+		};
+		36DA64CC1DCFAAA400B67DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuanLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLife.app/QuanLife";
+			};
+			name = Release;
+		};
+		36DA64CE1DCFAAA400B67DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuanLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuanLife;
+			};
+			name = Debug;
+		};
+		36DA64CF1DCFAAA400B67DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuanLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hank.QuanLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuanLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DA64971DCFAAA400B67DFC /* Build configuration list for PBXProject "QuanLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA64C51DCFAAA400B67DFC /* Debug */,
+				36DA64C61DCFAAA400B67DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA64C71DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA64C81DCFAAA400B67DFC /* Debug */,
+				36DA64C91DCFAAA400B67DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36DA64CA1DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA64CB1DCFAAA400B67DFC /* Debug */,
+				36DA64CC1DCFAAA400B67DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36DA64CD1DCFAAA400B67DFC /* Build configuration list for PBXNativeTarget "QuanLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA64CE1DCFAAA400B67DFC /* Debug */,
+				36DA64CF1DCFAAA400B67DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36DA64A61DCFAAA400B67DFC /* QuanLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36DA64A71DCFAAA400B67DFC /* QuanLife.xcdatamodel */,
+			);
+			currentVersion = 36DA64A71DCFAAA400B67DFC /* QuanLife.xcdatamodel */;
+			path = QuanLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36DA64941DCFAAA400B67DFC /* Project object */;
+}
